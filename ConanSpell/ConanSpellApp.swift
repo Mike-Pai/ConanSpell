@@ -11,7 +11,7 @@ import SwiftUI
 struct ConanSpellApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PageControllerView()
         }
     }
 }

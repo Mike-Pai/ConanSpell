@@ -7,16 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9904FA10266DFDCD00650009 /* GameRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9904FA0F266DFDCD00650009 /* GameRecord.swift */; };
+		9904FA12266E152500650009 /* FinishGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9904FA11266E152500650009 /* FinishGameView.swift */; };
+		9930D9B1265CEC0D008E423C /* RoleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930D9B0265CEC0D008E423C /* RoleData.swift */; };
+		9949D278266CC0B2001C17F8 /* SoundFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9949D277266CC0B2001C17F8 /* SoundFunction.swift */; };
+		9949D27A266CC1D5001C17F8 /* GameTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9949D279266CC1D5001C17F8 /* GameTimer.swift */; };
+		9949D27C266CC217001C17F8 /* 背景音樂.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9949D27B266CC217001C17F8 /* 背景音樂.mp3 */; };
+		9949D27E266CD68F001C17F8 /* 答對音效.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9949D27D266CD68F001C17F8 /* 答對音效.mp3 */; };
+		9949D280266CD705001C17F8 /* 下一题.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9949D27F266CD705001C17F8 /* 下一题.mp3 */; };
+		9949D282266CD918001C17F8 /* 答錯音效.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9949D281266CD918001C17F8 /* 答錯音效.mp3 */; };
+		9949D284266D34A8001C17F8 /* PageControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9949D283266D34A8001C17F8 /* PageControllerView.swift */; };
+		9949D286266D34E7001C17F8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9949D285266D34E7001C17F8 /* WelcomeView.swift */; };
+		9949D288266D35D9001C17F8 /* PlayGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9949D287266D35D9001C17F8 /* PlayGameView.swift */; };
+		9949D28C266D3F1B001C17F8 /* GameSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9949D28B266D3F1B001C17F8 /* GameSettingView.swift */; };
+		9949D28E266D485D001C17F8 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9949D28D266D485D001C17F8 /* GameOverView.swift */; };
+		9949D290266D4C19001C17F8 /* RecordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9949D28F266D4C19001C17F8 /* RecordData.swift */; };
+		9949D294266D4F47001C17F8 /* RecordEnterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9949D293266D4F47001C17F8 /* RecordEnterView.swift */; };
+		99D7D8F9266DE58500B21EC2 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7D8F8266DE58500B21EC2 /* ListRowView.swift */; };
 		99EAAE1A263D5BC400FDC6C7 /* ConanSpellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EAAE19263D5BC400FDC6C7 /* ConanSpellApp.swift */; };
-		99EAAE1C263D5BC400FDC6C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EAAE1B263D5BC400FDC6C7 /* ContentView.swift */; };
 		99EAAE1E263D5BC500FDC6C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EAAE1D263D5BC500FDC6C7 /* Assets.xcassets */; };
 		99EAAE21263D5BC500FDC6C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EAAE20263D5BC500FDC6C7 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9904FA0F266DFDCD00650009 /* GameRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRecord.swift; sourceTree = "<group>"; };
+		9904FA11266E152500650009 /* FinishGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGameView.swift; sourceTree = "<group>"; };
+		9930D9B0265CEC0D008E423C /* RoleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleData.swift; sourceTree = "<group>"; };
+		9949D277266CC0B2001C17F8 /* SoundFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFunction.swift; sourceTree = "<group>"; };
+		9949D279266CC1D5001C17F8 /* GameTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTimer.swift; sourceTree = "<group>"; };
+		9949D27B266CC217001C17F8 /* 背景音樂.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "背景音樂.mp3"; sourceTree = "<group>"; };
+		9949D27D266CD68F001C17F8 /* 答對音效.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "答對音效.mp3"; sourceTree = "<group>"; };
+		9949D27F266CD705001C17F8 /* 下一题.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "下一题.mp3"; sourceTree = "<group>"; };
+		9949D281266CD918001C17F8 /* 答錯音效.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "答錯音效.mp3"; sourceTree = "<group>"; };
+		9949D283266D34A8001C17F8 /* PageControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControllerView.swift; sourceTree = "<group>"; };
+		9949D285266D34E7001C17F8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		9949D287266D35D9001C17F8 /* PlayGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameView.swift; sourceTree = "<group>"; };
+		9949D28B266D3F1B001C17F8 /* GameSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingView.swift; sourceTree = "<group>"; };
+		9949D28D266D485D001C17F8 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		9949D28F266D4C19001C17F8 /* RecordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordData.swift; sourceTree = "<group>"; };
+		9949D293266D4F47001C17F8 /* RecordEnterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordEnterView.swift; sourceTree = "<group>"; };
+		99D7D8F8266DE58500B21EC2 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		99EAAE16263D5BC400FDC6C7 /* ConanSpell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConanSpell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EAAE19263D5BC400FDC6C7 /* ConanSpellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConanSpellApp.swift; sourceTree = "<group>"; };
-		99EAAE1B263D5BC400FDC6C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99EAAE1D263D5BC500FDC6C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99EAAE20263D5BC500FDC6C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		99EAAE22263D5BC500FDC6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,9 +65,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9930D9B2265CF01A008E423C /* SpellData */ = {
+			isa = PBXGroup;
+			children = (
+				9949D28F266D4C19001C17F8 /* RecordData.swift */,
+				9930D9B0265CEC0D008E423C /* RoleData.swift */,
+				9949D277266CC0B2001C17F8 /* SoundFunction.swift */,
+				9949D279266CC1D5001C17F8 /* GameTimer.swift */,
+				9949D27B266CC217001C17F8 /* 背景音樂.mp3 */,
+				9949D27D266CD68F001C17F8 /* 答對音效.mp3 */,
+				9949D27F266CD705001C17F8 /* 下一题.mp3 */,
+				9949D281266CD918001C17F8 /* 答錯音效.mp3 */,
+			);
+			path = SpellData;
+			sourceTree = "<group>";
+		};
 		99EAAE0D263D5BC400FDC6C7 = {
 			isa = PBXGroup;
 			children = (
+				9930D9B2265CF01A008E423C /* SpellData */,
 				99EAAE18263D5BC400FDC6C7 /* ConanSpell */,
 				99EAAE17263D5BC400FDC6C7 /* Products */,
 			);
@@ -53,7 +101,15 @@
 			isa = PBXGroup;
 			children = (
 				99EAAE19263D5BC400FDC6C7 /* ConanSpellApp.swift */,
-				99EAAE1B263D5BC400FDC6C7 /* ContentView.swift */,
+				9904FA0F266DFDCD00650009 /* GameRecord.swift */,
+				99D7D8F8266DE58500B21EC2 /* ListRowView.swift */,
+				9949D293266D4F47001C17F8 /* RecordEnterView.swift */,
+				9949D287266D35D9001C17F8 /* PlayGameView.swift */,
+				9904FA11266E152500650009 /* FinishGameView.swift */,
+				9949D28D266D485D001C17F8 /* GameOverView.swift */,
+				9949D28B266D3F1B001C17F8 /* GameSettingView.swift */,
+				9949D285266D34E7001C17F8 /* WelcomeView.swift */,
+				9949D283266D34A8001C17F8 /* PageControllerView.swift */,
 				99EAAE1D263D5BC500FDC6C7 /* Assets.xcassets */,
 				99EAAE22263D5BC500FDC6C7 /* Info.plist */,
 				99EAAE1F263D5BC500FDC6C7 /* Preview Content */,
@@ -126,7 +182,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9949D282266CD918001C17F8 /* 答錯音效.mp3 in Resources */,
+				9949D27C266CC217001C17F8 /* 背景音樂.mp3 in Resources */,
 				99EAAE21263D5BC500FDC6C7 /* Preview Assets.xcassets in Resources */,
+				9949D280266CD705001C17F8 /* 下一题.mp3 in Resources */,
+				9949D27E266CD68F001C17F8 /* 答對音效.mp3 in Resources */,
 				99EAAE1E263D5BC500FDC6C7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +198,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99EAAE1C263D5BC400FDC6C7 /* ContentView.swift in Sources */,
+				9949D28E266D485D001C17F8 /* GameOverView.swift in Sources */,
+				9904FA12266E152500650009 /* FinishGameView.swift in Sources */,
+				99D7D8F9266DE58500B21EC2 /* ListRowView.swift in Sources */,
+				9949D288266D35D9001C17F8 /* PlayGameView.swift in Sources */,
+				9949D278266CC0B2001C17F8 /* SoundFunction.swift in Sources */,
+				9949D27A266CC1D5001C17F8 /* GameTimer.swift in Sources */,
+				9949D284266D34A8001C17F8 /* PageControllerView.swift in Sources */,
 				99EAAE1A263D5BC400FDC6C7 /* ConanSpellApp.swift in Sources */,
+				9949D290266D4C19001C17F8 /* RecordData.swift in Sources */,
+				9949D28C266D3F1B001C17F8 /* GameSettingView.swift in Sources */,
+				9904FA10266DFDCD00650009 /* GameRecord.swift in Sources */,
+				9949D294266D4F47001C17F8 /* RecordEnterView.swift in Sources */,
+				9930D9B1265CEC0D008E423C /* RoleData.swift in Sources */,
+				9949D286266D34E7001C17F8 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
